@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0 auto;
+
+    background-color: #121214;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 700px;
+}
+
+.kenzieflix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 42px;
+    margin-bottom: 73px;
+}
+
+.titulo h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 26px;
+}
+
+.avatar ul li{
+    color: #fff;
+}
+
+.avatar-img a{
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+    margin-bottom: 16px;
+
+    width: 160px;
+    height: 160px;
+
+    border: 2px solid transparent;
+}
+
+.avatar-img a:hover{
+    border: 2px solid #fff;
+}
+
+.avatar-nome{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #9C9C9C;
+}
+
+.avatar-nome:hover{
+    color: #fff;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-mais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    margin-top: 102px;
+
+    text-decoration: none;
+}
+
+footer a p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+     
+    padding: 14px 44px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+
+    text-decoration: none;
+}
+
+footer a p:hover{
+    background-color: #fff;
+    color: #000;
+}
