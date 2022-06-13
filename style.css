@@ -35,6 +35,8 @@ body{
     font-weight: 600;
 
     text-align: center;
+
+    margin-bottom: 61px;
 }
 
 .avatar{
@@ -48,27 +50,40 @@ body{
     align-items: center;
     justify-content: space-between;
 
-    gap: 26px;
+    width: 700px;
 }
 
 .avatar ul li{
+
+    width: 160px;
+    height: 19x 0px;
+}
+
+.avatar ul li{
+    color: gray;
+
+    text-align: center;
+}
+
+.avatar ul li:hover{
     color: #fff;
 }
 
 .avatar-img a{
     display: flex;
     justify-content: center;
-    margin-top: 61px;
-    margin-bottom: 16px;
 
     width: 160px;
     height: 160px;
+    margin-bottom: 16px;
 
     border: 2px solid transparent;
+    filter: brightness(0) normal;
 }
 
-.avatar-img a:hover{
+.avatar-img a img:hover{
     border: 2px solid #fff;
+    transition: 0.2s;
 }
 
 .avatar-nome{
@@ -77,22 +92,6 @@ body{
     font-weight: 600;
 
     color: #9C9C9C;
-}
-
-.avatar-nome:hover{
-    color: #fff;
-}
-
-.item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item-mais{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 footer a{
